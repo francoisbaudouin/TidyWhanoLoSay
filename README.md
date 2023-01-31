@@ -1,2 +1,2 @@
-# Whanos
+#  TidyWhanoLoSay
 Epitech Project
