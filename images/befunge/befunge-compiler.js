@@ -23,5 +23,5 @@ try {
         return;
     }
 } catch(err) {
-    console.error("error happened")
+    console.error("error happened", err)
 }
