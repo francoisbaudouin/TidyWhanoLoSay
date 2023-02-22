@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-container
-        image: whanos:latest
+        image: "{{ .Values.image }}"
         resources:
           limits:
             cpu: "0.5"
