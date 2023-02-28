@@ -60,6 +60,6 @@ if __name__ == '__main__':
 
     os.system(bashCommand)
     os.system("docker tag " + imageName +
-              " europe-west1-docker.pkg.dev/tranquil-lore-377015/whanos-img/" + imageName)
+              " [REGION]-docker.pkg.dev/[ID_PROJECT]/[REPO_NAME]/" + imageName)
     os.system(
-        "docker push europe-west1-docker.pkg.dev/tranquil-lore-377015/whanos-img/" + imageName)
+        "docker push [REGION]-docker.pkg.dev/[ID_PROJECT]/[REPO_NAME]/" + imageName)
