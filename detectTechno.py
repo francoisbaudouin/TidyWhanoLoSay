@@ -2,6 +2,7 @@
 
 import os
 import sys
+import time
 
 
 def checkFileExists(filename):
@@ -58,3 +59,7 @@ if __name__ == '__main__':
         language + "/Dockerfile.standalone -t " + imageName
 
     os.system(bashCommand)
+    os.system("docker tag " + imageName +
+              " europe-west1-docker.pkg.dev/tranquil-lore-377015/whanos-img/" + imageName)
+    os.system(
+        "docker push europe-west1-docker.pkg.dev/tranquil-lore-377015/whanos-img/" + imageName)
