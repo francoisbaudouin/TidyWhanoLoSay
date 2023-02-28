@@ -1,4 +1,4 @@
 #  TidyWhanoLoSay
 Epitech Project
 
-All tutorials will be explained here : https://rose-breeze-53d.notion.site/Wiki-Whanos-e5252a849bdf439ea63209350ff81466
+All tutorials will be explained here : https://rose-breeze-53d.notion.site/Whanos-dcf6bd49100547f88085ba3f32ded31c
